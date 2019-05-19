@@ -1,0 +1,14 @@
+DROP DATABASE IF EXISTS practice;
+CREATE DATABASE practice;
+
+USE practice;
+
+CREATE TABLE user( 
+    id INTEGER NOT NULL AUTO_INCREMENT,
+
+    email VARCHAR(50) NOT NULL,
+
+    password VARCHAR(60) NOT NULL,
+    
+    PRIMARY KEY (id)
+)
