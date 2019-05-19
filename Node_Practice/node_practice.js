@@ -1,4 +1,4 @@
-var mysql =  require("mysql");
+var mysql = require("mysql");
 require('dotenv').config();
 
 var connection = mysql.createConnection({
@@ -17,5 +17,4 @@ connection.connect(function(err){
     console.log('connected as id ' + connection.threadId);
     //connection.end();
 });
-
 
